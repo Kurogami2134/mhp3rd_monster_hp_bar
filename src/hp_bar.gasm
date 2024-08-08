@@ -1,0 +1,15 @@
+#include src/constants.gasm
+
+offset      0
+base        8
+vtype       true, VTYPE_TEXTURE_U16, VTYPE_COLOR_RGBA8, false, VTYPE_POSITION_S16, false, 0, false
+TBP0        0x800D40
+TBW0        1, 0x8
+TSIZE0      0, 0
+tme         true
+tfunc       TFUNC_MODULATE, true
+vaddr       0x800D00
+prim        2, PRIM_RECTANGLES
+prim        2, PRIM_RECTANGLES
+finish
+end
